@@ -1,0 +1,55 @@
+ASSIGNMENT 1:
+
+LISTS:
+>>> list1=["Windows", "123", True, "Linux"]
+>>> print(list1)
+['Windows', '123', True, 'Linux']
+>>> list1[3]
+'Linux'
+>>> list1.append(567)
+>>> print(list1)
+['Windows', '123', True, 'Linux', 567]
+>>> list1.insert(1,False)
+>>> print(list1)
+['Windows', False, '123', True, 'Linux', 567]
+>>> list1.remove(True)
+>>> print(list1)
+['Windows', False, '123', 'Linux', 567]
+
+TUPLES:
+>>> tuple1=("Apple", 789, False)
+>>> print(tuple1)
+('Apple', 789, False)
+>>> tuple2=(123, "Something", True)
+>>> print(tuple2)
+(123, 'Something', True)
+>>> print(tuple1+tuple2)
+('Apple', 789, False, 123, 'Something', True)
+
+DICTIONARIES:
+>>> dict1={"Name":"Rob", "Roll No":2, "Percentage":95.89}
+>>> print(dict1)
+{'Name': 'Rob', 'Roll No': 2, 'Percentage': 95.89}
+>>> print(dict1["Roll No"])
+2
+>>> print(dict1["Name"])
+Rob
+
+SLICING OPERATOR AND STEP INTO[+ve & -ve]:
+>>> x="Computers"
+>>> print(x[1:])
+omputers
+>>> print(x[:3])
+Com
+>>> print(x[0:2])
+Co
+>>> print(x[0::2])
+Cmues
+>>> print(x[::-2])
+seumC
+>>> print(x[2:5:-2])
+
+FROZEN SETS:
+>>> set1={"Computer", 763, True, "Table"}
+>>> frozenset(set1)
+frozenset({True, 763, 'Computer', 'Table'})
