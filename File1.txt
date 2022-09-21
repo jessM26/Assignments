@@ -1,4 +1,4 @@
-ASSIGNMENT 1:
+ASSIGNMENTS:
 
 LISTS:
 >>> list1=["Windows", "123", True, "Linux"]
