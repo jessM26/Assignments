@@ -53,3 +53,54 @@ FROZEN SETS:
 >>> set1={"Computer", 763, True, "Table"}
 >>> frozenset(set1)
 frozenset({True, 763, 'Computer', 'Table'})
+
+
+
+CALCULATOR:
+print("CALCULAtOR: with +, -, *, /, % operations!!")
+n1=int(input('Enter first number:'))
+n2=int(input('Enter second number'))
+op=input('Enter operator')
+mf=open("file1.txt", "a")
+if(op=='+'):
+    print('Addition is ',(n1+n2),'. Stored in file.')
+    mf.write("Addition: ")
+    mf.write(str(n1+n2))
+
+if(op=='-'):
+    print('Subtraction is ',(n1-n2),'. Stored in file.')
+    mf.write("Subtraction: ")
+    mf.write(str(n1-n2))
+
+if(op=='*'):
+    print('Multiplication is ',(n1*n2),'. Stored in file.')
+    mf.write("Multiplication: ")
+    mf.write(str(n1*n2))
+
+if(op=='/'):
+    print('Division is ',(n1/n2),'. Stored in file.')
+    mf.write("Division: ")
+    mf.write(str(n1/n2))
+
+if(op=='%'):
+    print('Remainder after division is ',(n1%n2),'. Stored in file.')
+    mf.write("Division Remainder: ")
+    mf.write(str
+
+
+USE OF r+, w+, a+:
+mf=open("file1.txt", "r+");       #opens file for read and write
+mf.write("Some information.");
+print(mf.read());
+
+
+mf=open("file1.txt", "w+");       #opens file for read and write
+mf.write("This is some data.");
+print(mf.read());
+
+
+mf=open("file1.txt", "w+");       #opens file for read and write in append mode
+mf.write("This is some more data.");
+print(mf.read());
+
+
